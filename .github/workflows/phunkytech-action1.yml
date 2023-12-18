@@ -1,0 +1,16 @@
+# First workflow in a series of workflows...
+
+name: First Workflow
+on: workflow_dispatch # This is an event that waits for manual user intervention
+jobs: 
+  phunkyfirst-job: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print greeting
+        run: echo "Welcome to PhunkyTech!"
+      - name: Print goodbye 
+        run: echo "Done! Goodbye from PhunkyTech, bye!"
+      
+
+
+
