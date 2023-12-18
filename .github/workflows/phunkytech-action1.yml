@@ -6,10 +6,10 @@ jobs:
   phunkyfirst-job: 
     runs-on: ubuntu-latest
     steps: 
-      - name: Print greeting
-        run: echo "Welcome to PhunkyTech!"
-      - name: Print goodbye 
-        run: echo "Done! Goodbye from PhunkyTech, bye!"
+      - name: Print greeting and goodbye
+        run: |
+          echo "Welcome to PhunkyTech!" 
+          echo "Done! Goodbye from PhunkyTech, bye!"
       
 
 
